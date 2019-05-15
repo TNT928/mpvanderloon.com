@@ -79,8 +79,79 @@ body {
           margin-bottom:50px; 
         
       }
+      #sec5{
+          background-color:#36393d;
+          color: #d1d18c;
+          padding-top:50px;
+          padding-bottom: 50px;
+          margin-bottom:50px; 
+        padding-left: 200px;
+          padding-right: 200px;
+        
+      }
 
       .h1{
           margin-top: 50px;
           margin-bottom: 50px;
       }
+
+      p{
+          font-size: 20px;
+      }
+
+      div .image {
+          padding-bottom: 0px;
+          margin-bottom: 0px;
+      }
+
+      #aboutimage img{
+          margin-bottom: 100px;
+          max-width: 30em;
+      }
+
+      #bio{
+          background-color: tan;
+          padding-bottom: 30px;
+          margin-bottom: 30em;
+          border: 1.5px solid red;
+      }
+
+      .h2{
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-bottom: 5em;
+        color: white;
+        font-size: 3em;
+         
+          text-align: left;
+      }
+
+      .greeting{
+          text-align: center;
+          margin-bottom: 5em;
+          color: white;
+          font-size: 5em;
+      }
+      
+      .center{
+          margin: auto;
+          padding-left: 5em;
+      }
+
+      #btn{
+          margin-left: 60px;
+      }
+
+      #launchbox{
+          background-color: tan;
+         
+      }
+      
+      .box{
+          size: 40px;
+      }
+
+      #home{
+          background-image: url(https://cdn.pixabay.com/photo/2016/09/10/17/18/book-1659717__480.jpg);
+          
+        }
