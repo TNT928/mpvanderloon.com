@@ -2,7 +2,8 @@
 /* ============================== */
 
 #mainnavbar{
-    background-color: black;
+    background-color: rgb(190, 177, 177);
+    
 }
 
 #mainnavbar .nav-link{
@@ -10,8 +11,28 @@
     justify-content: space-around;
     display: flex;
     padding: 10px;
-    width: 100%
-}
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+   
+    }
+
+ul li a{
+           
+     text-transform:uppercase;
+        transition:0.5s;
+      }
+      
+     
+      
+ul li a:hover{
+        transform:scale(2);
+        opacity:1;
+        filter:blur(0);
+        text-decoration:none;
+        /* color:#fff; */
+      }
 
 /* ========================== */
 
@@ -23,7 +44,10 @@ body {
   
   .form-box {
     max-width: 500px;
+    margin-top: 500px;
     margin: auto;
+
+    padding-top: 50px;
     padding: 50px;
     background: #ffffff;
     border: 10px solid #f2f2f2;
@@ -35,6 +59,11 @@ body {
   
   input, textarea {
     width: 100%;
+  }
+
+  #box{
+      margin-top: 50px;
+      padding-top: 50px;
   }
 
   /* ==================== */
@@ -56,6 +85,8 @@ body {
           padding-top:50px;
           padding-bottom: 50px;
           margin-bottom:50px; 
+          padding-right: 30px;
+          padding-left: 30px;
         
       }
       #sec2{
@@ -63,6 +94,8 @@ body {
           padding-top:50px;
           padding-bottom: 50px;
           margin-bottom:50px; 
+          padding-right: 30px;
+          padding-left: 30px;
         
       }
       #sec3{
@@ -70,13 +103,16 @@ body {
           padding-top:50px;
           padding-bottom: 50px;
           margin-bottom:50px; 
-        
+          padding-right: 30px;
+          padding-left: 30px;
       }
       #sec4{
           background-color: tan;
           padding-top:50px;
           padding-bottom: 50px;
           margin-bottom:50px; 
+          padding-right: 30px;
+          padding-left: 30px;
         
       }
       #sec5{
@@ -91,8 +127,13 @@ body {
       }
 
       .h1{
-          margin-top: 50px;
-          margin-bottom: 50px;
+          margin-top: 1em;
+          margin-bottom: 20px;
+          padding-bottom: 1em;
+          font-family: 'Marck Script', cursive ;
+          font-size: 10em;
+         color: #e7f98e;
+          font-weight: bold;
       }
 
       p{
@@ -113,24 +154,45 @@ body {
           background-color: tan;
           padding-bottom: 30px;
           margin-bottom: 30em;
-          border: 1.5px solid red;
+         padding-top: 40px;
+         padding-left: 40px;
+         padding-right: 40px;
+        font-family: 'Nunito Sans', sans-serif;
+     
       }
 
       .h2{
-        margin-top: 50px;
+        margin-top: 2em;
         margin-left: 30px;
-        margin-bottom: 5em;
+        margin-bottom: 2em;
         color: white;
-        font-size: 3em;
-         
-          text-align: left;
+        font-family: 'Marck Script', cursive ;
+        font-size: 4em;
+        font-weight: bold;
+         text-align: left;
+       
       }
 
       .greeting{
           text-align: center;
-          margin-bottom: 5em;
-          color: white;
-          font-size: 5em;
+          margin-bottom: 1em;
+          color: #e7f98e;
+          font-size: 10em;
+          font-family: 'Marck Script', cursive ;
+          font-weight: bold;
+          
+      }
+
+      #greeting {
+          position: relative;
+          animation-name: greeting;
+          animation-duration: 1.5s;
+          
+      }
+
+      @keyframes greeting {
+          0% {left: -1000px;}
+          100% {left: 0;}
       }
       
       .center{
@@ -148,10 +210,68 @@ body {
       }
       
       .box{
-          size: 40px;
+          size: ;
       }
 
       #home{
-          background-image: url(https://cdn.pixabay.com/photo/2016/09/10/17/18/book-1659717__480.jpg);
+          background-image: url(https://pixabay.com/get/57e6d04a4d53ab14ea9d807dc420327e1422dfe05656784d73267bdc/book-1659717.jpg);
+            background-size: 100%;
+            background-attachment: fixed
+            
           
         }
+
+        #about{
+            background-image: url(https://pixabay.com/get/52e3d347435ab114b2dc847ecf2d377f083edbe05458754f7d2d7f/old-books-436498.jpg);
+            background-size: 100%;
+            background-repeat: round;
+            background-attachment: fixed;
+           
+        }
+
+        #books{
+            background-image: url(https://pixabay.com/get/57e1d14a4a51ad14ea9d807dc420327e1422dfe05656784d732973d4/book-1149031.jpg);
+            background-attachment: fixed;
+        }
+
+        #eventbox{
+            background-color:#275266;
+            position: center;
+            width: 70em;
+            height: 40em;
+            top: 0;
+            left: 0;
+            margin-bottom: 30px;
+            padding-top: 50px;
+            color: white;
+        }
+
+        #events{
+            background-image: url(https://pixabay.com/get/50e9dc474a51b114b2dc847ecf2d377f083edbe054587441772873/sunlight-699403.jpg);
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+
+        .book img{
+            transition: ease-in
+
+        }
+       
+        #sec5 div img{
+            transition: 0.5s;
+        }
+
+     #sec5 div img:hover{
+       
+        transform: scale(1.25);
+       
+       
+      }
+
+      ul.media{
+        list-style: none;
+        text-align: center;
+      }
+      ul.icons li {
+        display: inline-block;
+      }
