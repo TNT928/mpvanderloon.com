@@ -9,14 +9,14 @@
      
          <form action="contact" method="POST">
             <label for="name">Name</label>
-            <input id="name" type="text" name="Name">
+            <input required='required'id="name" type="text" name="Name">
           
-            <label for="email">Email</label>
-            <input id="email" type="email" name="Email">
+            <label required for="email">Email</label>
+            <input required='required' id="email" type="email" name="Email">
           
-            <label for="message">Message</label>
-            <textarea id="message" name="Message"></textarea>
-          <input class="btn btn-primary" type="submit" value="Submit" />
+            <label  required='required' for="message">Message</label>
+            <textarea required='required' id="message" name="Message"></textarea>
+          <input required='required' class="btn btn-primary" type="submit" value="Submit" />
         </form>
       </div>
 </div>
