@@ -44,6 +44,6 @@ app.get('/success',(req, res)=>{
 })
 
 
-app.listen(process.env.Port, () => {
+app.listen(process.env.Port, process.env.IP,() => {
     console.log("We're connected!")
 });
