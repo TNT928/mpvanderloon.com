@@ -1,25 +1,25 @@
 const express= require("express");
 const router= express.Router();
 const bodyParser=require('body-parser');
-const urlencodedParser = bodyParser.urlencoded({ extended: false });
 const nodemailer= require('nodemailer');
 
 
 router.post('/',(req,res)=>{
+  
   const output= `
 
-  <p>You have a new contact request</p>
+        <p>You have a new contact request</p>
 
-  <h3>Contact Details</h3>
+        <h3>Contact Details</h3>
 
-  <ul>
-       <li> Name: ${req.body.Name}</li>
-       <li> Email: ${req.body.Email}</li>
-      <li> Message: ${req.body.Message}</li>
-  
-  </ul>
-  
-  `;
+        <ul>
+            <li> Name: ${req.body.Name}</li>
+            <li> Email: ${req.body.Email}</li>
+            <li> Message: ${req.body.Message}</li>
+        
+        </ul>
+        
+        `;
 
   async function main(){
 

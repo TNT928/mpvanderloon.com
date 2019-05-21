@@ -11,10 +11,10 @@
     justify-content: space-around;
     display: flex;
     padding: 10px;
-    width: 100%;
+    width: 90%;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 18px;
    
     }
 
@@ -31,7 +31,7 @@ ul li a:hover{
         opacity:1;
         filter:blur(0);
         text-decoration:none;
-        /* color:#fff; */
+       
       }
 
 /* ========================== */
@@ -46,7 +46,6 @@ body {
     max-width: 500px;
     margin-top: 500px;
     margin: auto;
-
     padding-top: 50px;
     padding: 50px;
     background: #ffffff;
@@ -73,12 +72,6 @@ body {
        max-width: 100%;
       }
 
-      /* .container-fluid{
-          padding50-top: 60px;
-          background-color: tan;
-          position: relative;
-          height: auto;
-      } */
 
       #sec1{
           background-color: tan;
@@ -121,10 +114,20 @@ body {
           padding-top:50px;
           padding-bottom: 50px;
           margin-bottom:50px; 
-        padding-left: 200px;
+          padding-left: 200px;
           padding-right: 200px;
         
       }
+
+        #sec5 div img {
+            transition: 0.5s;
+        }
+
+        #sec5 div img:hover{
+            transform: scale(1.25);
+    
+            }
+
 
       .h1{
           margin-top: 1em;
@@ -136,7 +139,7 @@ body {
           font-weight: bold;
       }
 
-      p{
+      p {
           font-size: 20px;
       }
 
@@ -151,52 +154,51 @@ body {
       }
 
       #bio{
-          background-color: tan;
-          padding-bottom: 30px;
-          margin-bottom: 30em;
-         padding-top: 40px;
-         padding-left: 40px;
-         padding-right: 40px;
-        font-family: 'Nunito Sans', sans-serif;
-     
+            background-color: tan;
+            padding-bottom: 30px;
+            margin-bottom: 30em;
+            padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+            font-family: 'Nunito Sans', sans-serif;
+        
       }
 
       .h2{
-          position: relative;
-          top: 2em;
-      
-        margin-left: 30px;
-        margin-bottom: 1em;
-        color: white;
-        font-family: 'Marck Script', cursive ;
-        font-size: 4em;
-        font-weight: bold;
-         text-align: left;
+            position: relative;
+            top: 2em;
+            margin-left: 30px;
+            margin-bottom: 1em;
+            color: white;
+            font-family: 'Marck Script', cursive ;
+            font-size: 4em;
+            font-weight: bold;
+            text-align: left;
        
       }
 
       .greeting{
-          text-align: center;
-          position: relative;
-          top: .5em;
-          margin-bottom: 1em;
-          color: #e7f98e;
-          font-size: 10em;
-          font-family: 'Marck Script', cursive ;
-          font-weight: bold;
-          
+            text-align: center;
+            position: relative;
+            top: .5em;
+            margin-bottom: 1em;
+            color: #e7f98e;
+            font-size: 10em;
+            font-family: 'Marck Script', cursive ;
+            font-weight: bold;
+            
       }
 
       #greeting {
-          position: relative;
-          animation-name: greeting;
-          animation-duration: 1.5s;
+            position: relative;
+            animation-name: greeting;
+            animation-duration: 1.5s;
           
       }
 
       @keyframes greeting {
-          0% {left: -1000px;}
-          100% {left: 0;}
+            0% {left: -1000px;}
+            100% {left: 0;}
       }
       
       .center{
@@ -212,18 +214,13 @@ body {
           background-color: tan;
          
       }
-      
-      .box{
-          size: ;
-      }
-
+           
       #home{
           
-          background-image: url(https://i.imgur.com/6par2Wq.jpg);
+            background-image: url(https://i.imgur.com/6par2Wq.jpg);
             background-size: 100%;
             background-attachment: fixed
-            
-          
+                
         }
 
         #about{
@@ -257,30 +254,17 @@ body {
             background-attachment: fixed;
         }
 
-        #contact{
-            
-        }
-
-        .book img{
+        .book img {
             transition: ease-in
 
         }
        
-        #sec5 div img{
-            transition: 0.5s;
-        }
-
-        #sec5 div img:hover{
-       
-        transform: scale(1.25);
-       
-       
-      }
-
+     
       ul.media{
         list-style: none;
         text-align: center;
       }
+
       ul.icons li {
         display: inline-block;
       }
@@ -290,3 +274,4 @@ body {
          top: 100px;
       }
 
+  

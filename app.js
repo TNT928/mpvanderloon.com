@@ -1,20 +1,20 @@
 const express= require("express")
 const app= express();
 const bodyParser=require('body-parser');
-const contact= require('./routes/contact')
 const port =3000;
 require('dotenv').config()
 
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-
 app.set("view engine", "ejs");
 
+// require route
+const contact= require('./routes/contact')
+
+// mount rules
+
 app.use('/contact', contact)
-
-
-
 
 
 // Routes
@@ -42,7 +42,6 @@ app.get('/contact',(req, res, next)=>{
 app.get('/success',(req, res)=>{
     res.render('success')
 })
-
 
 
 app.listen(port, () => {
