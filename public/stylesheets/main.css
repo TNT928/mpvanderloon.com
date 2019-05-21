@@ -257,6 +257,10 @@ body {
             background-attachment: fixed;
         }
 
+        #contact{
+            
+        }
+
         .book img{
             transition: ease-in
 
@@ -266,7 +270,7 @@ body {
             transition: 0.5s;
         }
 
-     #sec5 div img:hover{
+        #sec5 div img:hover{
        
         transform: scale(1.25);
        
@@ -285,3 +289,4 @@ body {
           position: relative;
          top: 100px;
       }
+
