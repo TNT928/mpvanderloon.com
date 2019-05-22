@@ -43,6 +43,10 @@ app.get('/success',(req, res)=>{
     res.render('success')
 })
 
+app.listen(port, ()=>{
+    console.log("We're Connected!")
+})
+
 
 app.listen(process.env.PORT, process.env.IP,() => {
     console.log("We're connected!")

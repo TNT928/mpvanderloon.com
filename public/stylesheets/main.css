@@ -190,88 +190,89 @@ body {
       }
 
       #greeting {
-            position: relative;
-            animation-name: greeting;
-            animation-duration: 1.5s;
-          
-      }
-
-      @keyframes greeting {
-            0% {left: -1000px;}
-            100% {left: 0;}
-      }
+        position: relative;
+        animation-name: greeting;
+        animation-duration: 1.5s;
       
-      .center{
-          margin: auto;
-          padding-left: 5em;
-      }
-
-      #btn{
-          margin-left: 60px;
-      }
-
-      #launchbox{
-          background-color: tan;
-         
-      }
-           
-      #home{
-          
-            background-image: url(https://i.imgur.com/6par2Wq.jpg);
-            background-size: 100%;
-            background-attachment: fixed
-                
-        }
-
-        #about{
-            background-image: url(https://i.imgur.com/RVGpvAr.jpg);
-            background-size: 100%;
-            background-repeat: round;
-            background-attachment: fixed;
-           
-        }
-
-        #books{
-            background-image: url(https://i.imgur.com/WJV0S7j.jpg);
-            background-attachment: fixed;
-        }
-
-        #eventbox{
-            background-color:#275266;
-            position: center;
-            width: 70em;
-            height: 40em;
-            top: 0;
-            left: 0;
-            margin-bottom: 30px;
-            padding-top: 50px;
-            color: white;
-        }
-
-        #events{
-            background-image: url(https://i.imgur.com/egYEyG7.jpg);
-            background-size: 100%;
-            background-attachment: fixed;
-        }
-
-        .book img {
-            transition: ease-in
-
-        }
-       
+    }
+    
+    @keyframes greeting {
+        0% {left: -1000px;}
+        100% {left: 0;}
+    }
+    
+    .center{
+      margin: auto;
+      padding-left: 5em;
+    }
+    
+    #btn{
+      margin-left: 60px;
+    }
+    
+    #launchbox{
+      background-color: tan;
      
-      ul.media{
-        list-style: none;
-        text-align: center;
-      }
+    }
+       
+    #home{
+        background-image: url(https://i.imgur.com/dmZLICg.jpg);
+        background-size: 100%;
+        background-attachment: fixed
+            
+    }
+    
+    #about{
+        background-image: url(https://i.imgur.com/n4OSncf.jpg);
+        /* background-size: 100%; */
+        background-repeat: round;
+        background-attachment: fixed;
+       
+    }
+    
+    #books{
+        background-image: url(https://i.imgur.com/HgZN10n.jpg);
+        background-attachment: fixed;
+    }
+    
+    #eventbox{
+        background-color:#275266;
+        position: center;
+        width: 70em;
+        height: 40em;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+        padding-top: 50px;
+        color: white;
+    }
+    
+    #events{
+        background-image: url(https://i.imgur.com/rZu7Iez.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    
+    .book img {
+        transition: ease-in
+    
+    }
+    
+    
+    ul.media{
+    list-style: none;
+    text-align: center;
+    }
+    
+    ul.icons li {
+    display: inline-block;
+    }
+    
+    #success{
+      position: relative;
+     top: 100px;
+    }
 
-      ul.icons li {
-        display: inline-block;
-      }
-
-      #success{
-          position: relative;
-         top: 100px;
-      }
+  
 
   
