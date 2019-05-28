@@ -103,7 +103,7 @@ body {
           background-color: tan;
           padding-top:50px;
           padding-bottom: 50px;
-          margin-bottom:50px; 
+          margin-bottom:5px; 
           padding-right: 30px;
           padding-left: 30px;
         
@@ -114,9 +114,17 @@ body {
           padding-top:50px;
           padding-bottom: 50px;
           margin-bottom:50px; 
-          padding-left: 200px;
+          padding-left: 100px;
           padding-right: 200px;
         
+      }
+
+      #promoBook{
+          margin-bottom: 85px;
+      }
+
+      #promoDesc{
+          width: 40em;
       }
 
         #sec5 div img {
