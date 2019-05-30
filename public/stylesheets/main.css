@@ -281,6 +281,18 @@ body {
      top: 100px;
     }
 
-  
+    @media(max-width:768px){
+            .navbar-toggler-icon{
+                height: 3em;
+                width: 3em;
+            }
 
-  
+            #mainnavbar .nav-link {
+                font-size: 1.5em;
+    }
+    #sec5 div img:hover{
+        transform:none;
+
+    }      
+
+} 
