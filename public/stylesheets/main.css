@@ -116,6 +116,7 @@ body {
           margin-bottom:50px; 
           padding-left: 100px;
           padding-right: 200px;
+          width: 100%
         
       }
 
@@ -125,6 +126,8 @@ body {
 
       #promoDesc{
           width: 40em;
+          float: right;
+          padding-left: 3em;
       }
 
         #sec5 div img {
@@ -292,7 +295,14 @@ body {
     }
     #sec5 div img:hover{
         transform:none;
-
+        
     }   
+
+    #sec5 div{
+        width: 1000px;
+
+        
+
+    }
  
 } 
