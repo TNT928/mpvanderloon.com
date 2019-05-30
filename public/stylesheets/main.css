@@ -228,15 +228,15 @@ body {
        
     #home{
         background-image: url(https://i.imgur.com/b67chjV.jpg);
-        background-size: 100%;
+        background-size: cover;
         background-attachment: fixed
             
     }
     
     #about{
-        background-image: url(https://i.imgur.com/qIm0j8u.jpg);
-        background-size: 100%;
-    
+        background-image: url(https://i.imgur.com/SQu7BuE.jpg);
+        background-size: cover;
+        
         background-attachment: fixed;
        
     }
@@ -262,7 +262,7 @@ body {
     
     #events{
         background-image: url(https://i.imgur.com/2Ky7jZY.jpg);
-        background-size: 100%;
+        background-size: cover;
         background-attachment: fixed;
     }
     
@@ -315,6 +315,7 @@ body {
         padding-right: 12px;
        
     }
+
    
  
 } 
