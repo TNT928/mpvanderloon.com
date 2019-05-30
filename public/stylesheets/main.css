@@ -307,6 +307,10 @@ body {
         margin-top: 1.5em;
         font-size: 5em;
     }
+
+    body{
+        margin-left: 20px;
+    }
    
  
 } 
@@ -326,7 +330,9 @@ body {
     .greeting{
         font-size: 5em;
     }
-   
+    body{
+        margin-left: 20px;
+    }
    
  
 } 
