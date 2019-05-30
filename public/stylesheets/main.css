@@ -141,7 +141,7 @@ body {
           padding-bottom: 1em;
           font-family: 'Marck Script', cursive ;
           font-size: 10em;
-         color: #e7f98e;
+         color: #2fcab0;
           font-weight: bold;
       }
 
@@ -192,7 +192,8 @@ body {
             position: relative;
             top: .5em;
             margin-bottom: 1em;
-            color: #e7f98e;
+            color: #2fcab0;
+            
             font-size: 10em;
             font-family: 'Marck Script', cursive ;
             font-weight: bold;
@@ -233,9 +234,9 @@ body {
     }
     
     #about{
-        background-image: url(https://i.imgur.com/n4OSncf.jpg);
-        /* background-size: 100%; */
-        background-repeat: round;
+        background-image: url(https://i.imgur.com/qIm0j8u.jpg);
+        background-size: 100%;
+    
         background-attachment: fixed;
        
     }
@@ -287,8 +288,8 @@ body {
 
     @media screen and (max-width:497px){
             .navbar-toggler-icon{
-                height: 3em;
-                width: 3em;
+                height: 30px;
+                width: 30px;
             }
 
             #mainnavbar .nav-link {
@@ -319,8 +320,8 @@ body {
 } 
     @media screen and (max-width:798px){
             .navbar-toggler-icon{
-                height: 3em;
-                width: 3em;
+                height: 30px;
+                width: 30px;
             }
 
             #mainnavbar .nav-link {
@@ -351,3 +352,4 @@ img{
     padding-bottom: 20px;
 
 }
+
