@@ -298,7 +298,26 @@ body {
     #sec5 div img:hover{
         transform:none;
         
-    }   
+    }  
+    
+    #sec5{
+        width:100%
+         
+
+    }
+
+    .section{
+        overflow: hidden;
+    }
+
+    html{
+        width: 100%
+    }
+    .container-fluid{
+        width: 200%
+    }
+
+    
 
     .greeting{
         font-size: 5em;
@@ -310,12 +329,15 @@ body {
     }
 
     body{
-        margin-left: 30px;
+    
         margin-right: 20px;
         padding-right: 12px;
        
     }
-
+        #sec2{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
    
  
 } 
@@ -351,6 +373,7 @@ img{
     height: 90%;
     width: 90%;
     padding-bottom: 20px;
+    padding-left: 20px;
 
 }
 
