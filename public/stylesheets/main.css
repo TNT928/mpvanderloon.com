@@ -85,8 +85,8 @@ body {
           padding-top:50px;
           padding-bottom: 50px;
           margin-bottom:50px; 
-          /* padding-right: 30px;
-          padding-left: 30px; */
+          padding-right: 30px;
+          padding-left: 30px;
         
       }
       #sec2{
@@ -196,7 +196,6 @@ body {
             top: .5em;
             margin-bottom: 1em;
             color: #2fcab0;
-            
             font-size: 10em;
             font-family: 'Marck Script', cursive ;
             font-weight: bold;
@@ -207,6 +206,7 @@ body {
         position: relative;
         animation-name: greeting;
         animation-duration: 1.5s;
+        margin-bottom: 10%;
       
     }
     
@@ -310,12 +310,16 @@ body {
                 width: 100%
             }
 
-            .greeting{
+            #greeting{
                 font-size: 5em;
                  margin-right: 30%;
+                 margin-bottom: 30%;
+
+                
             }
 
             .h1{
+                position: static;
                 margin-top: 30%;
                 font-size: 5em;
                 margin-right:20%;
@@ -367,6 +371,7 @@ body {
     }   
     .greeting{
         font-size: 5em;
+        margin-bottom: 30%;
     }
     body{
         margin-left: 50px;
