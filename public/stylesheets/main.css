@@ -319,7 +319,7 @@ body {
             }
 
             .h1{
-                position: static;
+                /* position: static; */
                 margin-top: 30%;
                 font-size: 5em;
                 margin-right:20%;
@@ -328,7 +328,7 @@ body {
             .container{
                 left: 10px;
                 right: 20px;
-                position: absolute;
+                /* position: static; */
                 width:100%;
             }
 
